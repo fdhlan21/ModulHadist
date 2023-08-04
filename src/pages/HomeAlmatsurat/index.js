@@ -42,9 +42,9 @@ const Almatsurat = ({navigation}) => {
 
   <TouchableOpacity  onPress={() => navigation.navigate('HalamanKeutamaan')} style={{padding:10, backgroundColor: theme.modulhadist, width:'100%', height:82, borderRadius:15}}>
 <View style={{padding:1, backgroundColor:colors.primary,  height:20, width:98, borderRadius:10}}>
-  <Text style={{color:'#fff', fontFamily:'Alata-Regular', textAlign:'center', bottom:3,}}>Al-Ma'tsurat</Text>
+  <Text style={{color:'#fff', fontFamily:'Poppins-SemiBold', textAlign:'center', bottom:1, fontSize:13}}>Al-Ma'tsurat</Text>
 </View>
-<Text style={{fontFamily:'Alata-Regular', color:theme.color, fontSize:20}}>Keutamaan</Text>
+<Text style={{fontFamily:'Poppins-Regular', color:theme.color, fontSize:20}}>Keutamaan</Text>
   </TouchableOpacity>
 
 
@@ -55,11 +55,11 @@ const Almatsurat = ({navigation}) => {
 <View>
 <View style={{flexDirection:'row', padding:10}}>
 
-  <TouchableOpacity  onPress={() => navigation.navigate('HalamanHadist1')} style={{padding:10, backgroundColor: theme.modulhadist, width:'100%', height:82, borderRadius:15}}>
+  <TouchableOpacity  onPress={() => navigation.navigate('HalamaDzikirpagi1')} style={{padding:10, backgroundColor: theme.modulhadist, width:'100%', height:82, borderRadius:15}}>
 <View style={{padding:1, backgroundColor:colors.primary,  height:20, width:98, borderRadius:10}}>
-  <Text style={{color:'#fff', fontFamily:'Alata-Regular', textAlign:'center', bottom:3,}}>Al-Ma'tsurat</Text>
+  <Text style={{color:'#fff', fontFamily:'Poppins-SemiBold', textAlign:'center', bottom:1, fontSize:13}}>Al-Ma'tsurat</Text>
 </View>
-<Text style={{fontFamily:'Alata-Regular', color:theme.color, fontSize:20}}>Dzikir Pagi</Text>
+<Text style={{fontFamily:'Poppins-Regular', color:theme.color, fontSize:20}}>Dzikir Pagi</Text>
   </TouchableOpacity>
 
 
@@ -70,11 +70,11 @@ const Almatsurat = ({navigation}) => {
 <View>
 <View style={{flexDirection:'row', padding:10}}>
 
-  <TouchableOpacity  onPress={() => navigation.navigate('HalamanHadist1')} style={{padding:10, backgroundColor: theme.modulhadist, width:'100%', height:82, borderRadius:15}}>
+  <TouchableOpacity  onPress={() => navigation.navigate('HalamaDzikirpetang1')} style={{padding:10, backgroundColor: theme.modulhadist, width:'100%', height:82, borderRadius:15}}>
 <View style={{padding:1, backgroundColor:colors.primary,  height:20, width:98, borderRadius:10}}>
-  <Text style={{color:'#fff', fontFamily:'Alata-Regular', textAlign:'center', bottom:3,}}>Al-Ma'tsurat</Text>
+  <Text style={{color:'#fff', fontFamily:'Poppins-SemiBold', textAlign:'center', bottom:1, fontSize:13}}>Al-Ma'tsurat</Text>
 </View>
-<Text style={{fontFamily:'Alata-Regular', color:theme.color, fontSize:20}}>Dzikir Petang</Text>
+<Text style={{fontFamily:'Poppins-Regular', color:theme.color, fontSize:20}}>Dzikir Petang</Text>
   </TouchableOpacity>
 
 

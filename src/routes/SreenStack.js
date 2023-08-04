@@ -12,6 +12,7 @@ import Book from '../assets/svg/book-opened-outline-from-top-view-svgrepo-com.sv
 import SearchFilter from '../component/SearchFilter';
 import themeContext from '../config/themeContext';
 import Almatsurat from '../pages/HomeAlmatsurat';
+import Dzikirpagi1 from '../pages/HomeAlmatsurat/Dizikirpagi';
 import Keutamaan from '../pages/HomeAlmatsurat/Keutamaan';
 import HalamanHadist1 from '../pages/Juz1/Hadist1';
 import HalamanHadist10 from '../pages/Juz1/Hadist10';
@@ -124,6 +125,49 @@ import HalamanHadist94 from '../pages/Juz5/hadist94';
 import HalamanStart from '../pages/Start';
 import HalamanTentang from '../pages/Tentang';
 import colors from "../utils/colors/colors";
+import Dzikirpagi2 from '../pages/HomeAlmatsurat/Dizikirpagi/index2';
+import Dzikirpagi3 from '../pages/HomeAlmatsurat/Dizikirpagi/index3';
+import Dzikirpagi4 from '../pages/HomeAlmatsurat/Dizikirpagi/index4';
+import Dzikirpagi5 from '../pages/HomeAlmatsurat/Dizikirpagi/index5';
+import Dzikirpagi6 from '../pages/HomeAlmatsurat/Dizikirpagi/index6';
+import Dzikirpagi7 from '../pages/HomeAlmatsurat/Dizikirpagi/index7';
+import Dzikirpagi8 from '../pages/HomeAlmatsurat/Dizikirpagi/index8';
+import Dzikirpagi9 from '../pages/HomeAlmatsurat/Dizikirpagi/index9';
+import Dzikirpagi10 from '../pages/HomeAlmatsurat/Dizikirpagi/index10';
+import Dzikirpagi11 from '../pages/HomeAlmatsurat/Dizikirpagi/index11';
+import Dzikirpagi12 from '../pages/HomeAlmatsurat/Dizikirpagi/index12';
+import Dzikirpagi13 from '../pages/HomeAlmatsurat/Dizikirpagi/index13';
+import Dzikirpagi14 from '../pages/HomeAlmatsurat/Dizikirpagi/index14';
+import Dzikirpagi15 from '../pages/HomeAlmatsurat/Dizikirpagi/index15,';
+import Dzikirpagi16 from '../pages/HomeAlmatsurat/Dizikirpagi/index16';
+import Dzikirpagi17 from '../pages/HomeAlmatsurat/Dizikirpagi/index17';
+import Dzikirpagi18 from '../pages/HomeAlmatsurat/Dizikirpagi/index18';
+import Dzikirpagi19 from '../pages/HomeAlmatsurat/Dizikirpagi/index19';
+import Dzikirpagi20 from '../pages/HomeAlmatsurat/Dizikirpagi/index20';
+import Dzikirpagi21 from '../pages/HomeAlmatsurat/Dizikirpagi/index21';
+import Dzikirpagi22 from '../pages/HomeAlmatsurat/Dizikirpagi/index22';
+import Dzikirpetang1 from '../pages/HomeAlmatsurat/Dzikirpetang';
+import Dzikirpetang2 from '../pages/HomeAlmatsurat/Dzikirpetang/index2';
+import Dzikirpetang3 from '../pages/HomeAlmatsurat/Dzikirpetang/index3';
+import Dzikirpetang4 from '../pages/HomeAlmatsurat/Dzikirpetang/index4';
+import Dzikirpetang15 from '../pages/HomeAlmatsurat/Dzikirpetang/index15';
+import Dzikirpetang5 from '../pages/HomeAlmatsurat/Dzikirpetang/index5';
+import Dzikirpetang6 from '../pages/HomeAlmatsurat/Dzikirpetang/index6';
+import Dzikirpetang7 from '../pages/HomeAlmatsurat/Dzikirpetang/index7';
+import Dzikirpetang8 from '../pages/HomeAlmatsurat/Dzikirpetang/index8';
+import Dzikirpetang9 from '../pages/HomeAlmatsurat/Dzikirpetang/index9';
+import Dzikirpetang10 from '../pages/HomeAlmatsurat/Dzikirpetang/index10';
+import Dzikirpetang11 from '../pages/HomeAlmatsurat/Dzikirpetang/index11';
+import Dzikirpetang12 from '../pages/HomeAlmatsurat/Dzikirpetang/index12';
+import Dzikirpetang13 from '../pages/HomeAlmatsurat/Dzikirpetang/index13';
+import Dzikirpetang14 from '../pages/HomeAlmatsurat/Dzikirpetang/index14';
+import Dzikirpetang16 from '../pages/HomeAlmatsurat/Dzikirpetang/index16';
+import Dzikirpetang17 from '../pages/HomeAlmatsurat/Dzikirpetang/index17';
+import Dzikirpetang18 from '../pages/HomeAlmatsurat/Dzikirpetang/index18';
+import Dzikirpetang19 from '../pages/HomeAlmatsurat/Dzikirpetang/index19';
+import Dzikirpetang20 from '../pages/HomeAlmatsurat/Dzikirpetang/index20';
+import Dzikirpetang21 from '../pages/HomeAlmatsurat/Dzikirpetang/index21';
+
 
 
 
@@ -324,10 +368,55 @@ useEffect(() => {
       <MyStack.Screen name="HalamanHadist101" component={Hadist101} options={{headerShown:false}}/>
       <MyStack.Screen name="HalamanHadist102" component={Hadist102} options={{headerShown:false}}/>
       <MyStack.Screen name="HalamanTentang" component={HalamanTentang} options={{headerShown:false}}/>
-       <MyStack.Screen name="HalamanSearchJuz" component={SearchJuz} options={{headerShown:false}}/>
-       <MyStack.Screen name="HalamanSeachFilter" component={SearchFilter} options={{headerShown:false}}/>
+      <MyStack.Screen name="HalamanSearchJuz" component={SearchJuz} options={{headerShown:false}}/>
+      <MyStack.Screen name="HalamanSeachFilter" component={SearchFilter} options={{headerShown:false}}/>
         <MyStack.Screen name="HalamanAlmatsurat" component={Almatsurat} options={{headerShown:false}}/>
-         <MyStack.Screen name="HalamanKeutamaan" component={Keutamaan} options={{headerShown:false}}/>
+        <MyStack.Screen name="HalamanKeutamaan" component={Keutamaan} options={{headerShown:false}}/>
+        <MyStack.Screen name="HalamaDzikirpagi1" component={Dzikirpagi1} options={{headerShown:false}}/>
+        <MyStack.Screen name="HalamaDzikirpagi2" component={Dzikirpagi2} options={{headerShown:false}}/>
+          <MyStack.Screen name="HalamaDzikirpagi3" component={Dzikirpagi3} options={{headerShown:false}}/>
+            <MyStack.Screen name="HalamaDzikirpagi4" component={Dzikirpagi4} options={{headerShown:false}}/>
+              <MyStack.Screen name="HalamaDzikirpagi5" component={Dzikirpagi5} options={{headerShown:false}}/>
+                <MyStack.Screen name="HalamaDzikirpagi6" component={Dzikirpagi6} options={{headerShown:false}}/>
+                  <MyStack.Screen name="HalamaDzikirpagi7" component={Dzikirpagi7} options={{headerShown:false}}/>
+                    <MyStack.Screen name="HalamaDzikirpagi8" component={Dzikirpagi8} options={{headerShown:false}}/>
+                    <MyStack.Screen name="HalamaDzikirpagi9" component={Dzikirpagi9} options={{headerShown:false}}/>
+                    <MyStack.Screen name="HalamaDzikirpagi10" component={Dzikirpagi10} options={{headerShown:false}}/>
+                      <MyStack.Screen name="HalamaDzikirpagi11" component={Dzikirpagi11} options={{headerShown:false}}/>
+                      <MyStack.Screen name="HalamaDzikirpagi12" component={Dzikirpagi12} options={{headerShown:false}}/>
+                      <MyStack.Screen name="HalamaDzikirpagi13" component={Dzikirpagi13} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi14" component={Dzikirpagi14} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi15" component={Dzikirpagi15} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi16" component={Dzikirpagi16} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi17" component={Dzikirpagi17} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi18" component={Dzikirpagi18} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi19" component={Dzikirpagi19} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi20" component={Dzikirpagi20} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi21" component={Dzikirpagi21} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpagi22" component={Dzikirpagi22} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang1" component={Dzikirpetang1} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang2" component={Dzikirpetang2} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang3" component={Dzikirpetang3} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang4" component={Dzikirpetang4} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang5" component={Dzikirpetang5} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang6" component={Dzikirpetang6} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang7" component={Dzikirpetang7} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang8" component={Dzikirpetang8} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang9" component={Dzikirpetang9} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang10" component={Dzikirpetang10} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang11" component={Dzikirpetang11} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang12" component={Dzikirpetang12} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang13" component={Dzikirpetang13} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang14" component={Dzikirpetang14} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang15" component={Dzikirpetang15} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang16" component={Dzikirpetang16} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang17" component={Dzikirpetang17} options={{headerShown:false}}/>
+                        <MyStack.Screen name="HalamaDzikirpetang18" component={Dzikirpetang18} options={{headerShown:false}}/>
+                          <MyStack.Screen name="HalamaDzikirpetang19" component={Dzikirpetang19} options={{headerShown:false}}/>
+                            <MyStack.Screen name="HalamaDzikirpetang20" component={Dzikirpetang20} options={{headerShown:false}}/>
+                              <MyStack.Screen name="HalamaDzikirpetang21" component={Dzikirpetang21} options={{headerShown:false}}/>
+                  
+
       </MyStack.Navigator>
 
   );
