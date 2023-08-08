@@ -49,7 +49,7 @@ paddingTop:20}}>Pernyataan Syukur Akan Nikmat Allah</Text>
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيْكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ</Text>
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰهُمَّ مَا أَمْسَى بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيْكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

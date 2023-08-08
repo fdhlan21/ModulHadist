@@ -50,7 +50,7 @@ paddingTop:20}}>Pengakuan atas Tauhid
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰهُمَّ إِنِّيْ أَصْبَحْتُ، أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتَكَ وَجَمِيْعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ</Text>
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰهُمَّ إِنِّيْ أَمْسَيْتُ، أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتَكَ وَجَمِيْعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

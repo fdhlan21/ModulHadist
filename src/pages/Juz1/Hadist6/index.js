@@ -53,7 +53,7 @@ paddingTop:20}}>Jaminan Allah Bagi Orang yang Tidak Berbuat Syirik</Text>
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={() => setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20, letterSpacing:2}}>وَمَنْ مَاتَ لاَ يُشْرِكُ بِاللهِ شَيْئًا دَخَلَ الْجَنَّةَ 
+paddingTop:30, lineHeight:70, paddingRight:20, letterSpacing:2}}>مَنْ مَاتَ لاَ يُشْرِكُ بِاللهِ شَيْئًا دَخَلَ الْجَنَّةَ 
 (رواه مسلم)</Text>
 </TouchableOpacity>
 

@@ -20,6 +20,7 @@ const HalamanStart = ({navigation}) => {
 
    
 
+<View style={{marginTop:'30%'}}>
 
 
 <View style={{alignItems:'center', paddingTop:50}}>
@@ -33,17 +34,17 @@ const HalamanStart = ({navigation}) => {
 
 
 <TouchableOpacity  onPress={() => navigation.navigate('HalamanHomeJuz1')} style={{backgroundColor:mode === true ?    theme.dark  : '#E2E2E2' , height:45, width:289, borderRadius:10, borderWidth:1, borderColor:mode === true? theme.color : '#fff',}}>
-  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color}}>HADIST</Text>
+  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color, top:4}}>HADIST</Text>
 </TouchableOpacity>
 
 
 <TouchableOpacity  onPress={() => navigation.navigate('HalamanAlmatsurat')} style={{backgroundColor:mode === true ?    theme.dark  : '#E2E2E2' , height:45, width:289, borderRadius:10, borderWidth:1, borderColor:mode === true? theme.color : '#fff',marginTop:20,}}>
-  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color}}>AL-MA'TSURAT</Text>
+  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color, top:4}}>AL-MA'TSURAT</Text>
 </TouchableOpacity>
 
 
 <TouchableOpacity  onPress={() => navigation.navigate('HalamanTentang')} style={{backgroundColor:mode === true ?    theme.dark  : '#E2E2E2' , height:45, width:289, borderRadius:10, borderWidth:1, borderColor:mode === true? theme.color : '#fff', marginTop:20}}>
-  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color}}>TENTANG</Text>
+  <Text style={{ fontFamily:'BebasNeue-Regular',textAlign:'center', fontSize:30,  color: theme.color, top:4}}>TENTANG</Text>
 </TouchableOpacity>
 
 
@@ -54,7 +55,7 @@ const HalamanStart = ({navigation}) => {
 <View style={{width:'80%',}}>
 
 <View style={{flexDirection:'row', justifyContent:'flex-end'}}>
-<Text style={{fontFamily:'Alata-Regular',  color: theme.color}}>{mode === true ?  'Mode Gelap' : 'Mode Gelap'}</Text>
+<Text style={{fontFamily:'Poppins-Regular',  color: theme.color}}>{mode === true ?  'Mode Gelap' : 'Mode Gelap'}</Text>
 <Switch  style={{}}  value={mode} onValueChange={(value) => {
   setMode(value);
   EventRegister.emit("changeTheme", value);
@@ -68,9 +69,10 @@ const HalamanStart = ({navigation}) => {
 
 
 
-<View style={{paddingVertical:10}}></View>
 
 
+  
+</View>
 </ScrollView>
 </SafeAreaView>
 

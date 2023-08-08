@@ -49,7 +49,7 @@ paddingTop:20}}>Pernyataan pasrah hidup dan mati hanya kepada Allah semata</Text
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ</Text>
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ وَإِلَيْكَ المَصِيْرُ</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

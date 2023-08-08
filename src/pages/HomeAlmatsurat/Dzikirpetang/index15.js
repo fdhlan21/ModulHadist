@@ -49,7 +49,7 @@ paddingTop:20}}>Memohon Kebaikan dan Berlindung dari Keburukan</Text>
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:1}}>أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلهِ رَبِّ الْعَالَمِيْنَ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ خَيْرَ هٰذَا الْيَوْمِ: فَتْحَهُ، وَنَصْرَهُ، وَنُوْرَهُ، وَبَرَكَتَهُ، وَهُدَاهُ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْهِ وَشَرِّ مَا بَعْدَهُ</Text>
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:1}}>أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلهِ رَبِّ الْعَالَمِيْنَ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ خَيْرَ هٰذَهِ اللَّيْلَةِ: فَتْحَهَا، وَنَصْرَهَا، وَنُوْرَهَا، وَبَرَكَتَهَا، وَهُدَاهَا، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْهَا وَشَرِّ مَا بَعْدَهَا</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

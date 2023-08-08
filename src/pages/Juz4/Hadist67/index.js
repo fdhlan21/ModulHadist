@@ -51,7 +51,7 @@ paddingTop:20, paddingRight:0}}>Saling Mencinta Karena Allah</Text>
 <Text selectable onLongPress={()=>setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
 paddingTop:30, lineHeight:70, paddingRight:20, letterSpacing:2}}>لاَ تَدْخُلُوا الْجَنَّةَ حَتَّى تُؤْمِنُوا وَلاَ تُؤْمِنُوا حَتَّى
 تَحَابُّوا أَوَلاَ أَدُلُّكُمْ عَلَى شَىْءٍ إِذَا فَعَلْتُمُوهُ
-تَحَابَبْتُمْ؟ أَفْشُوا السَّلاَمَ بَيْنَكُمْ (رواه ومسلم)</Text>
+تَحَابَبْتُمْ؟ أَفْشُوا السَّلاَمَ بَيْنَكُمْ (رواه مسلم)</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

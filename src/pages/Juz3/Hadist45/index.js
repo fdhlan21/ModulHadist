@@ -53,7 +53,7 @@ paddingTop:20}}>Larangan Berbuat Bid’ah dalam Agama</Text>
 <TouchableOpacity onPress={handleCopy}>
 <Text  selectable onLongPress={()=>setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
 paddingTop:30, lineHeight:70, paddingRight:20, letterSpacing:2}}>مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ
-رَدٌّ (متفق عليه)</Text>
+رَدٌّ (رواه البخاري ومسلم) </Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>

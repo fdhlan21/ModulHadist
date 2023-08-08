@@ -49,7 +49,8 @@ paddingTop:20}}>Membaca surat al-Ikhlas, al-Falaq dan an-Naas (dibaca sebanyak 3
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ 
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ {'\n'}
+{'\n'}
 قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ﴿٤﴾</Text>
 </TouchableOpacity>
 
