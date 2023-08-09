@@ -60,6 +60,7 @@ const HalamanStart = ({navigation}) => {
   setMode(value);
   EventRegister.emit("changeTheme", value);
 }}
+      trackColor={{ false: 'gray', true: 'white' }}
 />
 </View>
 
