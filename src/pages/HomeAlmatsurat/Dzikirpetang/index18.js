@@ -57,6 +57,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>سُبْحَا
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
 “Maha suci Allah, aku memuji-Nya.”{'\n'}
+{'\n'}
 <Text style={{fontStyle:'italic', fontSize:15}}>“Barangsiapa yang mengucapkannya sebanyak 100x di waktu pagi dan sore hari, tidak ada orang lain di Hari Kiamat nanti yang bisa membawa pahala lebih banyak dari yang ia bawa, kecuali orang yang mengucapkan dzikir serupa atau lebih banyak lagi.” (Shahih Muslim. 4/2071)</Text>
 </Text>
 </TouchableOpacity>

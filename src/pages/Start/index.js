@@ -24,9 +24,9 @@ const HalamanStart = ({navigation}) => {
 
 
 <View style={{alignItems:'center', paddingTop:50}}>
-  <Image style={{width:133, height:133, }}  source={require('../../assets/img/logomhi.png')} />
-  <Text style={{fontFamily:'BebasNeue-Regular', fontSize:25, top:10, color:colors.textlogo}}>MODUL HADIST</Text>
-  <Text style={{fontFamily:'BebasNeue-Regular',  fontSize:18, top:5, color: theme.color}}>UNTUK TINGKAT DASAR</Text>
+  <Image style={{width:133, height:132, }}  source={require('../../assets/img/logomhi.png')} />
+  <Text style={{fontFamily:'BebasNeue-Regular', fontSize:49, top:10, color:colors.textlogo}}>MODUL HADIST</Text>
+  <Text style={{fontFamily:'BebasNeue-Regular',  fontSize:25, top:5, color: theme.color, letterSpacing:2.5}}>UNTUK TINGKAT DASAR</Text>
 </View>
 
 

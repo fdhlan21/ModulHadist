@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللَّه
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi, dan dengan rahmat dan pertolongan-Mu kami memasuki waktu sore. Dengan rahmat dan pertolongan-Mu kami hidup dan dengan kehendak-Mu kami mati. Dan kepada-Mu kebangkitan (bagi semua makhluk).” (Shahih at-Tirmidzi, 3/142)
+“Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu sore, dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi. Dengan rahmat dan pertolongan-Mu kami hidup dan dengan kehendak-Mu kami mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).” (Shahih at-Tirmidzi, 3/142)
 </Text>
 </TouchableOpacity>
 

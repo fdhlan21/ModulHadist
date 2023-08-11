@@ -57,7 +57,8 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰه
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Ya Allah, sesungguhnya aku di waktu pagi bersaksi kepada-Mu, Malaikat yang memikul ‘Arasy-Mu, Malaikat-malaikat dan seluruh makhluk-Mu, sesungguhnya Engkau adalah Allah, tiada Tuhan yang berhak di sembah kecuali Engkau yang Maha Esa, tiada sekutu bagi-Mu, dan sesungguhnya Muhammad adalah hamba dan utusan-Mu.”{'\n'}
+“Ya Allah, sesungguhnya aku di waktu sore bersaksi kepada-Mu, Malaikat yang memikul ‘Arasy-Mu, Malaikat-malaikat dan seluruh makhluk-Mu, sesungguhnya Engkau adalah Allah, tiada Tuhan yang berhak di sembah kecuali Engkau yang Maha Esa, tiada sekutu bagi-Mu, dan sesungguhnya Muhammad adalah hamba dan utusan-Mu.”
+{'\n'}
 {"\n"}
 <Text style={{fontStyle:'italic', fontSize:15,}}>
 Barangsiapa yang mengucapkannya 4x pada waktu pagi dan sore hari, maka Allah akan membebaskannya dari api neraka. (HR Al-Bukhari)

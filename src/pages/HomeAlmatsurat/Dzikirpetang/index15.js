@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:1}}>أَمْسَي
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Kami di waktu pagi, sedang kerajaan milik Allah, Tuhan penguasa alam. Ya Allah, sesungguhnya aku mohon kepada-Mu agar memperoleh kebaikan, pembuka (rahmat) pertolongan, cahaya, berkah dan petunjuk di hari ini. Aku berlindung kepada-Mu dari kejelekan apa yang ada di dalamnya dan kejahatan sesudahnya.” (HR. Abu Dawud Syu’aib dan Abdul Qadir Al-Arna’uth menghasankan sanadnya){'\n'}
+“Kami di waktu sore, sedang kerajaan milik Allah, Tuhan penguasa alam. Ya Allah, sesungguhnya aku mohon kepada-Mu agar memperoleh kebaikan, pembuka (rahmat) pertolongan, cahaya, berkah dan petunjuk di malam ini. Aku berlindung kepada-Mu dari kejelekan apa yang ada di dalamnya dan kejahatan sesudahnya.” <Text style={{fontStyle:'italic'}}>(HR. Abu Dawud Syu’aib dan Abdul Qadir Al-Arna’uth menghasankan sanadnya)</Text> {'\n'}
 </Text>
 </TouchableOpacity>
 

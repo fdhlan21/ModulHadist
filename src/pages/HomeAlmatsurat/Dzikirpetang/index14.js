@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>يَا حَي�
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta pertolongan, perbaikilah segala urusanku dan jangan diserahkan kepadaku sekali pun sekejap mata (tanpa mendapat pertolongan dari-Mu).” (Shahih at-Targhib wa at-Tarhib, 1/273){'\n'}
+“Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta pertolongan, perbaikilah segala urusanku dan jangan diserahkan kepadaku sekali pun sekejap mata (tanpa mendapat pertolongan dari-Mu).” <Text style={{fontStyle:'italic'}}>(Shahih at-Targhib wa at-Tarhib, 1/273)</Text> {'\n'}
 </Text>
 </TouchableOpacity>
 

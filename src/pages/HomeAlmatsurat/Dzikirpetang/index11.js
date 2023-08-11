@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللَّه
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata, wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan yang merajainya. Aku bersaksi bahwa tidak ada ilah yang berhak disembah kecuali Engkau. Aku berlindung kepada-Mu dari kejahatan diriku, setan dan balatentaranya, dan aku (berlindung kepada-Mu) dari berbuat kejelekan terhadap diriku atau menyeretnya kepada seorang muslim.” (Shahih at-Tirmidzi, 2/332){'\n'}
+“Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata, wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan yang merajainya. Aku bersaksi bahwa tidak ada ilah yang berhak disembah kecuali Engkau. Aku berlindung kepada-Mu dari kejahatan diriku, setan dan balatentaranya, dan aku (berlindung kepada-Mu) dari berbuat kejelekan terhadap diriku atau menyeretnya kepada seorang muslim.” <Text style={{fontStyle:'italic'}}>(Shahih at-Tirmidzi, 2/332)</Text> {'\n'}
 {"\n"}
 </Text>
 </TouchableOpacity>

@@ -54,7 +54,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>أَعُوْذ
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
-paddingTop:30, paddingLeft:20, paddingRight:20}}>
+paddingTop:30, paddingLeft:20, paddingRight:0}}>
 Artinya:{'\n'}
 “Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang diciptakan-Nya.”{'\n'}
 {'\n'}

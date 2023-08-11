@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>أَمْسَي
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Di waktu pagi kami memegang agama Islam, kalimat ikhlas, agama Nabi kita Muhammad shallallahu ‘alaihi wa sallam, dan agama ayah kami Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang musyrik.” (Shahihul Jami’, 4/209){'\n'}
+“Di waktu sore kami memegang agama Islam, kalimat ikhlas, agama Nabi kita Muhammad shallallahu ‘alaihi wa sallam, dan agama ayah kami Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang musyrik.” <Text style={{fontStyle:'italic'}}>(Shahihul Jami’, 4/209)</Text> {'\n'}
 </Text>
 </TouchableOpacity>
 
@@ -72,7 +72,7 @@ Artinya:{'\n'}
 <View style={{justifyContent:'space-between', flexDirection:'row',  padding:10, backgroundColor:theme.topbar}}>
 
 <TouchableOpacity  activeOpacity={1} onPress={handleBack}   style={{width:40, height:40, padding:10, backgroundColor:theme.nexttouch, borderRadius:5}}>
-    <Image style={{width:29, height:20, alignItems:'center', right:5}}  source={require('../../../assets/img/panahkiri.png')}/>
+    <Image style={{width:29, height:20, alignItems:'center', right:5,}}  source={require('../../../assets/img/panahkiri.png')}/>
 </TouchableOpacity>
 
 <TouchableOpacity activeOpacity={1} onPress={()=> navigation.navigate('HalamaDzikirpetang17')} style={{width:40, height:40, padding:10, backgroundColor:theme.nexttouch, borderRadius:5}}>

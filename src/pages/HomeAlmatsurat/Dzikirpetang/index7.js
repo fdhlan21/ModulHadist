@@ -56,7 +56,7 @@ paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>اَللّٰه
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Poppins-Regular', fontSize:17, textAlign:'left', color:theme.color,
 paddingTop:30, paddingLeft:20, paddingRight:20}}>
 Artinya:{'\n'}
-“Ya Allah, nikmat yang kuterima atau diterima oleh seseorang di antara makhluk-Mu di pagi ini adalah dari-Mu. Maha Esa Engkau, tiada sekutu bagi-Mu. Bagi-Mu segala puji dan kepada-Mu panjatan syukur (dari seluruh makhluk-Mu).” (HR. Abu Daud){'\n'}
+“Ya Allah, nikmat yang kuterima atau diterima oleh seseorang di antara makhluk-Mu di sore ini adalah dari-Mu. Maha Esa Engkau, tiada sekutu bagi-Mu. Bagi-Mu segala puji dan kepada-Mu panjatan syukur (dari seluruh makhluk-Mu).” (HR. Abu Daud){'\n'}
 {"\n"}
 <Text style={{fontStyle:'italic', fontSize:15,}}>
 Barangsiapa yang mengucapkannya pada waktu pagi berarti ia telah bersyukur untuk hari itu. Dan bila mengucapkannya pada waktu sore berarti ia telah bersyukur untuk malam harinya.
