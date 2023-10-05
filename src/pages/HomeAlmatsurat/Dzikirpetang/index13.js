@@ -49,7 +49,7 @@ paddingTop:20}}>Pernyataan ridha kepada Allah, Islam dan Nabi Muhammad (dibaca 3
 
 <TouchableOpacity onPress={handleCopy}>
 <Text selectable onLongPress={()=> setSelectedText(Text)} style={{fontFamily:'Amiri-Regular', fontSize:27,  textAlign:'right', color:theme.color,
-paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>رَضِيْتُ بِاللهِ رَبًّا، وَبِاْلإِسْلاَمِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ نَبِيًّ</Text>
+paddingTop:30, lineHeight:70, paddingRight:20,  letterSpacing:2}}>رَضِيْتُ بِاللهِ رَبًّا، وَبِاْلإِسْلاَمِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا</Text>
 </TouchableOpacity>
 
 <TouchableOpacity onPress={handleCopy}>
